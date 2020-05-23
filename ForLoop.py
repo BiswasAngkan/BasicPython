@@ -40,7 +40,11 @@ for i in [20, 2, 45, 7]:
 for i in ['dog', 'cat', 'apple']:
 	print(i)
 
+'''...4th way...'''	
 
+x = [i + 2 for i in [1, 2, 3, 4, 5]]
+print(x)
 
-
-		
+x = [1, 2, 3, 4, 5]
+y = [i + 2 for i in x]
+print(y)
