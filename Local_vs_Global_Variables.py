@@ -45,7 +45,7 @@ def f3():
 	f4()
 
 def f4():
-	print('Inside f3(): b = {}'.format(b))	
+	print('Inside f4(): b = {}'.format(b))	
 
 def f1():
 	a = 10
